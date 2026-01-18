@@ -16,30 +16,33 @@ export default function App() {
   const [activeSection, setActiveSection] = useState("home");
 
   // Your project images
-  const project1Images = [
-    "/images/image31.PNG",
-    "/images/image32.PNG",
-    "/images/image33.PNG",
-    "/images/image34.PNG",
-    "/images/image35.PNG",
-    "/images/image36.PNG",
-    "/images/image37.PNG",
-    "/images/image38.PNG"
-  ];
+  // Project 1 images
+const project1Images = [
+  `${import.meta.env.BASE_URL}images/image31.PNG`,
+  `${import.meta.env.BASE_URL}images/image32.PNG`,
+  `${import.meta.env.BASE_URL}images/image33.PNG`,
+  `${import.meta.env.BASE_URL}images/image34.PNG`,
+  `${import.meta.env.BASE_URL}images/image35.PNG`,
+  `${import.meta.env.BASE_URL}images/image36.PNG`,
+  `${import.meta.env.BASE_URL}images/image37.PNG`,
+  `${import.meta.env.BASE_URL}images/image38.PNG`
+];
 
-  const project2Images = [
-    "/images/image1.PNG",
-    "/images/image2.PNG",
-    "/images/image3.PNG",
-    "/images/image4.PNG",
-    "/images/image5.PNG"
-  ];
+// Project 2 images
+const project2Images = [
+  `${import.meta.env.BASE_URL}images/image1.PNG`,
+  `${import.meta.env.BASE_URL}images/image2.PNG`,
+  `${import.meta.env.BASE_URL}images/image3.PNG`,
+  `${import.meta.env.BASE_URL}images/image4.PNG`,
+  `${import.meta.env.BASE_URL}images/image5.PNG`
+];
 
-  const project3Images = [
-   "/images/image11.PNG",
-   "/images/image12.PNG",
-   "/images/image13.PNG"
-  ];
+// Project 3 images
+const project3Images = [
+  `${import.meta.env.BASE_URL}images/image11.PNG`,
+  `${import.meta.env.BASE_URL}images/image12.PNG`,
+  `${import.meta.env.BASE_URL}images/image13.PNG`
+];
 
   // State for image rotation
   const [proj1ImgIndex, setProj1ImgIndex] = useState(0);
