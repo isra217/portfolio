@@ -1019,12 +1019,13 @@ export default function Home() {
                         <div className="flex flex-1 flex-col p-6">
                           <h3 className="mb-3 text-xl font-bold">AFZ KSA</h3>
                           <p className="project-description mb-5 text-sm leading-7 text-slate-600">
-                            A front-end website project created during my
-                            internship, focused on presenting AFZ KSA with a
-                            clear, responsive digital experience.
+                            I built a responsive Next.js website to establish
+                            AFZ&apos;s company presence in Saudi Arabia and
+                            introduce visitors to its regional operations. A
+                            chatbot helps visitors find information and support.
                           </p>
                           <div className="mb-6 flex flex-wrap gap-2">
-                            {["Front-end", "Responsive UI", "Web Development"].map((tech) => (
+                            {["Next.js", "Responsive Design", "Chatbot"].map((tech) => (
                               <span key={tech} className="rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700">{tech}</span>
                             ))}
                           </div>
@@ -1061,12 +1062,13 @@ export default function Home() {
                         <div className="flex flex-1 flex-col p-6">
                           <h3 className="mb-3 text-xl font-bold">AFZ Global</h3>
                           <p className="project-description mb-5 text-sm leading-7 text-slate-600">
-                            A responsive front-end website project developed
-                            during my internship, with an emphasis on a polished
-                            interface and accessible content.
+                            I built a responsive Next.js website for AFZ&apos;s
+                            presence in Pakistan, showcasing the company&apos;s
+                            operations and services. Its chatbot helps visitors
+                            explore the site and get information.
                           </p>
                           <div className="mb-6 flex flex-wrap gap-2">
-                            {["Front-end", "Responsive UI", "Web Development"].map((tech) => (
+                            {["Next.js", "Responsive Design", "Chatbot"].map((tech) => (
                               <span key={tech} className="rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700">{tech}</span>
                             ))}
                           </div>
